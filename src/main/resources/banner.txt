@@ -1,0 +1,12 @@
+  ______      _                                  
+ |  ____|    (_)                                 
+ | |__   _ __ _  ___  ___  ___  _ __   ___ _ __ 
+ |  __| | '__| |/ _ \/ __|/ _ \| '_ \ / _ \ '__|
+ | |____| |  | |  __/\__ \ (_) | | | |  __/ |   
+ |______|_|  |_|\___||___/\___/|_| |_|\___|_|   
+                                               
+ 🚀 Welcome to Your E-Commerce Platform! 🛒
+ 🔥 Fast. Secure. Scalable. Built with Spring Boot!  
+ 📦 Sell More. Grow Faster. Delight Customers.    
+  
+ :: Powered by Spring Boot ::
