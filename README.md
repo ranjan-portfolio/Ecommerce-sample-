@@ -2,10 +2,10 @@
 📌 Overview
 This is the backend for a modern eCommerce application built using Spring Boot and MySQL. It provides RESTful APIs for user authentication, product management, and order processing.
 🚀 Features
-* 🛍️ Product Management – CRUD operations for products
-* 👤 User Authentication – Currently basic auth based
+* 🛍️ Product Management – CRUD operations for products/category
+* 👤 User Authentication – Currently basic auth based (BCrypt password encoding)
 * 🛒 Shopping Cart – Add/remove items and checkout
-* 💳 Payment Integration – Stripe/PayPal support
+* 💳 Payment Integration – Stripe support
 * 📦 Order Management – Order history and status tracking
 * 🔍 Search & Filters – Product search functionality
 * 📊 Admin Dashboard – Manage users
@@ -17,3 +17,6 @@ Backend:
 * MySQL/PostgreSQL – Relational database
 * Redis – Caching layer
 * Swagger – API documentation
+* Spring API gateway for API composition, rate-limiting
+* Spring Eureka for service registration and enable loadbalancing for Spring API gateway
+* Open Telemetry integration
