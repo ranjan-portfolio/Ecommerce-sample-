@@ -11,8 +11,8 @@ import lombok.Setter;
 @Setter
 public class RatingResponse {
     
-    private int ratingId;
-    private int productId;
+    private Long ratingId;
+    private Long productId;
     private String ratingDescription;
     private float ratingValue;
     private String username;

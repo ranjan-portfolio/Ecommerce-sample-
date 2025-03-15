@@ -13,7 +13,7 @@ public class RatingRequest {
     @NotBlank
     private String ratingDescription;
     @NotNull
-    private float ratingValue;
+    private Float ratingValue;
     @NotBlank
     private String username;
 }
