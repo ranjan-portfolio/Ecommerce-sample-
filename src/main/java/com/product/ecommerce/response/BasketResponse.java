@@ -2,6 +2,10 @@ package com.product.ecommerce.response;
 
 
 
+import java.time.LocalDate;
+
+
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,4 +17,6 @@ public class BasketResponse {
     private Long productId;
     private Long quantity;
     private Float priceAtTime;
+    private LocalDate updatedAt;
+    private LocalDate addedAt;
 }

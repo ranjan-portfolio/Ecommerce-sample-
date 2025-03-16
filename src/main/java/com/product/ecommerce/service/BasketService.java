@@ -8,10 +8,10 @@ public interface BasketService {
 
     public List<BasketResponse> getBasketDetails(String username) ;
 
-    public List<BasketResponse> insertIntoBasket(String username,Long productId,Long quantity,Float price);
+    public BasketResponse insertIntoBasket(String username,Long productId,Long quantity,Float price);
 
     public BasketResponse updateBasket(String username, Long productId,Long quantity);
 
-    public BasketResponse deleteBasket(String username, Long productId);
+    public boolean deleteBasket(String username, Long productId);
     
 }

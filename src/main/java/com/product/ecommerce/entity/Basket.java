@@ -1,6 +1,6 @@
 package com.product.ecommerce.entity;
 
-import java.security.Timestamp;
+import java.sql.Timestamp;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -13,6 +13,7 @@ public class Basket {
     private String username;
     private Long productId;
     private Long quantity;
+    private Float price;
     private Timestamp addedAt;
     private Timestamp updatedAt;
 }
