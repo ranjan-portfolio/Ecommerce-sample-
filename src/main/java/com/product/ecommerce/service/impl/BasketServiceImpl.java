@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import com.product.ecommerce.dao.BasketRepository;
 import com.product.ecommerce.entity.Basket;
 import com.product.ecommerce.response.BasketResponse;
+import com.product.ecommerce.response.OrderResponse;
 import com.product.ecommerce.service.BasketService;
 
 import lombok.Getter;
@@ -68,6 +69,19 @@ public class BasketServiceImpl implements BasketService{
         basketResponse.setAddedAt(basket.getAddedAt().toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
         basketResponse.setUpdatedAt(basket.getUpdatedAt().toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
         return basketResponse;
+    }
+
+    public OrderResponse placeOrder(List<BasketResponse> orderList){
+
+        // save the basket item into order with order status as pending and payment status is pending
+        // delete the saved orders from basket
+        // Use stripe service to do payment
+        // Update order status as processing if payment successful,
+        // In case of failure retry after exponential backoff 3 times ,if still failure mark is pending
+        // send the order to vendor.
+        // Send the result response to the user
+
+        return null;
     }
     
 }

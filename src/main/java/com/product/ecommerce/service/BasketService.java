@@ -3,6 +3,7 @@ package com.product.ecommerce.service;
 import java.util.List;
 
 import com.product.ecommerce.response.BasketResponse;
+import com.product.ecommerce.response.OrderResponse;
 
 public interface BasketService {
 
@@ -13,5 +14,7 @@ public interface BasketService {
     public BasketResponse updateBasket(String username, Long productId,Long quantity);
 
     public boolean deleteBasket(String username, Long productId);
+
+    public OrderResponse placeOrder(List<BasketResponse> orderList);
     
 }
