@@ -1,4 +1,5 @@
 <img width="693" height="661" alt="productsearch" src="https://github.com/user-attachments/assets/242ab979-94e3-4c42-a092-3f2c4b0a0c73" />
+
 🛒 eCommerce Backend (Work in progress)
 📌 Overview
 This is the backend for a modern eCommerce application built using Spring Boot and MySQL. It provides RESTful APIs for user authentication, product management, and order processing.
